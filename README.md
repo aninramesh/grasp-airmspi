@@ -16,7 +16,8 @@ a CSV file.
 Pixel x=2450, y=1950 on 2019-08-17 (3 x 3 average), created with
 
 ```bash
-python airmspi_pixel_plot.py --x 2450 --y 1950 --box 3 \
+python airmspi_pixel_plot.py --data-dir /stor/z101/Data/FIREX-AQ/AirMSPI/L1C/2019/08/17 \
+    --x 2450 --y 1950 --box 3 \
     --out docs/example_pixel_x2450_y1950.png \
     --quicklook docs/example_quicklook_x2450_y1950.png
 ```
