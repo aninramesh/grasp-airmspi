@@ -11,6 +11,23 @@ and plots them against the viewing angle and the scattering angle. The
 extracted values, together with the full sun-view geometry, can be written to
 a CSV file.
 
+### Example
+
+Pixel x=2450, y=1950 on 2019-08-17 (3 x 3 average), created with
+
+```bash
+python airmspi_pixel_plot.py --x 2450 --y 1950 --box 3 \
+    --out docs/example_pixel_x2450_y1950.png \
+    --quicklook docs/example_quicklook_x2450_y1950.png
+```
+
+![Multi-angle I, Q, U and DoLP for pixel x=2450, y=1950](docs/example_pixel_x2450_y1950.png)
+
+The quicklook shows the pixel on the nadir 660 nm image; shaded areas are
+missing in at least one view.
+
+![Quicklook map with pixel x=2450, y=1950 marked](docs/example_quicklook_x2450_y1950.png)
+
 ### Data
 
 AirMSPI L1C (GRP_TERRAIN) provides one HDF5 file per viewing angle, for
