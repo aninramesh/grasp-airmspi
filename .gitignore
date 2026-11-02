@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Default outputs of airmspi_pixel_plot.py
+airmspi_*.png
+*.csv
+
+# Local environment and agent files
+.env
+AGENTS.md
+GEMINI.md
+CLAUDE.md
